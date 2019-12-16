@@ -42,7 +42,7 @@ var BB = {
     // Create blocks map
     setMap: function() {
         var blockMap = [
-            [null,      null,       null,       null,       null,       'blue',     null,       null,       null,       null],
+            [null,      'red',       null,       null,       null,       'blue',     null,       null,       null,       'blue'],
             [null,      null,       null,       null,       'red',      'red',      'blue',     null,       null,       null],
             [null,      null,       null,       'red',      'red',      null,       null,       'blue',     null,       null],
             [null,      null,       'red',      'red',      null,       null,       null,       null,       'blue',     null],    
@@ -50,7 +50,7 @@ var BB = {
             [null,      null,       'red',      'red',       null,       null,       null,       'silver',   'silver',   null],    
             [null,      null,       null,       'red',      'red',       null,       'silver',   'silver',   null,       null],    
             [null,      null,       null,       null,       'silver',   'silver',   'silver',   null,       null,       null],
-            [null,      null,       null,       null,       null,       'silver',   null,       null,       null,       null]
+            [null,      'red',       null,       null,       null,       'silver',   null,       null,       null,       'blue']
         ];
         
         for(j = 0; j < blockMap.length; j++) {
