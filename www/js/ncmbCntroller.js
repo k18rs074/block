@@ -42,7 +42,7 @@ sendScore: function(score) {
                 "スコア送信完了！"
                 );
         } else {
-            alert("スコア送信完了！\n今回の順位は #" + rank + " でした！");
+            alert("スコア送信完了！\n今回の順位は #" + rank + " でした！\n次は更に高得点を！");
         }
     })
         })
