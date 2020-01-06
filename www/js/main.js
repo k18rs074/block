@@ -42,13 +42,13 @@ var BB = {
     // Create blocks map
     setMap: function() {
         var blockMap = [
-            ['red',      'red',       'red',       null,       null,       'blue',     null,       null,       'blue',       'blue'],
-            [null,      null,       null,       null,       'red',      'red',      'blue',     null,       null,       null],
-            [null,      null,       null,       'red',      'red',      null,       null,       'blue',     null,       null],
-            [null,      null,       'red',      'red',      null,       null,       null,       null,       'blue',     null],    
-            [null,      'red',      'red',      null,       null,       'gold',     null,       null,       'silver',   'silver'],    
-            [null,      null,       'red',      'red',       null,       null,       null,       'silver',   'silver',   null],    
-            [null,      null,       null,       'red',      'red',       null,       'silver',   'silver',   null,       null],    
+            [null,      'red',       'red',       null,       null,       'blue',     null,       null,       'blue',       'blue'],
+            [null,      null,       null,       null,       'red',      null,      'blue',     null,       null,       null],
+            [null,      null,       null,       'red',      null,      null,       null,       'blue',     null,       null],
+            [null,      null,       'red',      null,      null,       null,       null,       null,       'blue',     null],    
+            [null,      'silver',      'silver',      null,       null,       'gold',     null,       null,       'silver',   'silver'],    
+            [null,      null,       'silver',      'silver',       null,       null,       null,       'silver',   'silver',   null],    
+            [null,      null,       null,       'silver',      'silver',       null,       'silver',   'silver',   null,       null],    
             [null,      null,       null,       null,       'silver',   'silver',   'silver',   null,       null,       null],
             [null,      'red',       'red',       null,       null,       'silver',   null,       null,       'blue',       'blue']
         ];
